@@ -1,0 +1,1 @@
+This is my README info for the directory 0x00-shell_basics
