@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays files of current directory in a list format
+#   Ignore hiden files (.gitignore) 
+
+ls_cur_dir=$(ls)
+for x in $ls_cur_dir; do
+  echo "$x" | cut -d '-' -f2
+done
