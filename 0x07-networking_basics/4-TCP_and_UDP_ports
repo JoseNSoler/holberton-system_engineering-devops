@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displays listening ports, including sochekts
+# plus more informatio related (PID name)
+
+netstat -l --program
